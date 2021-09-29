@@ -11,12 +11,36 @@
         .logo {
             position:absolute;
             top: 50%;
-            left: 220px;
+            left: 190px;
             // width: 200px;
             // height: 200px;
             -webkit-transform: translateY(-50%);
             -moz-transform: translateY(-50%);
             transform: translateY(-50%);
+         }
+    }
+
+    .callToAction{
+        position:absolute;
+        right:10px;
+        top:6%;
+        -webkit-transform: translateY(-50%);
+        -moz-transform: translateY(-50%);
+         transform: translateY(-50%);
+
+         ul,li{
+             margin: 0;
+             padding: 0;
+         }
+         li{
+             list-style-type: none;
+         }
+         a{
+             font-size: 18px;
+             line-height: 1;
+             color: black;
+             text-decoration: none;
+             text-transform: uppercase;
          }
     }
 }
