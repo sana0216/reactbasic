@@ -22,7 +22,7 @@
 
     .callToAction{
         position:absolute;
-        right:10px;
+        right: 190px;
         top:6%;
         -webkit-transform: translateY(-50%);
         -moz-transform: translateY(-50%);
@@ -34,8 +34,23 @@
          }
          li{
              list-style-type: none;
+             display: inline-block;
+             margin-right: 10px;
+
+             &:last-child{
+                 margin-right: 0;
+             }
          }
          a{
+             font-size: 18px;
+             line-height: 1;
+             color: black;
+             text-decoration: none;
+             text-transform: uppercase;
+         }
+         span{
+             cursor: pointer;
+             margin-right: 10px;
              font-size: 18px;
              line-height: 1;
              color: black;
